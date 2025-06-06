@@ -71,15 +71,15 @@ const Index = () => {
             
             <div className="space-y-2 mono-font text-sm">
               <div className="flex items-center gap-2">
-                <span className="text-primary">></span>
+                <span className="text-primary">{'>'}</span>
                 <span>Location: United States</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-primary">></span>
+                <span className="text-primary">{'>'}</span>
                 <span>Experience: 5+ years in full-stack development</span>
               </div>
               <div className="flex items-center gap-2">
-                <span className="text-primary">></span>
+                <span className="text-primary">{'>'}</span>
                 <span>Focus: React, Java, Cloud Architecture, PWAs</span>
               </div>
             </div>

@@ -90,7 +90,7 @@ const CareerTimeline = () => {
               <ul className="space-y-1">
                 {item.description.map((desc, i) => (
                   <li key={i} className="mono-font text-xs text-foreground flex items-start">
-                    <span className="text-primary mr-2">></span>
+                    <span className="text-primary mr-2">{'>'}</span>
                     {desc}
                   </li>
                 ))}
