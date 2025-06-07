@@ -9,6 +9,9 @@ import Home from "./pages/Home";
 import About from "./pages/About";
 import Experience from "./pages/Experience";
 import Skills from "./pages/Skills";
+import Projects from "./pages/Projects";
+import Certifications from "./pages/Certifications";
+import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,10 +28,9 @@ const App = () => (
             <Route path="about" element={<About />} />
             <Route path="experience" element={<Experience />} />
             <Route path="skills" element={<Skills />} />
-            {/* TODO: Add remaining pages */}
-            {/* <Route path="projects" element={<Projects />} />
+            <Route path="projects" element={<Projects />} />
             <Route path="certifications" element={<Certifications />} />
-            <Route path="contact" element={<Contact />} /> */}
+            <Route path="contact" element={<Contact />} />
           </Route>
           <Route path="*" element={<NotFound />} />
         </Routes>
