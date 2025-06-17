@@ -124,30 +124,35 @@ export const certifications: Certification[] = [
     id: '1',
     name: 'AWS Certified Solutions Architect - Associate',
     issuer: 'Amazon Web Services',
-    date: '2023'
+    date: '2023',
+    url: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/'
   },
   {
     id: '2',
     name: 'AWS Certified Data Engineer - Associate',
     issuer: 'Amazon Web Services',
-    date: '2023'
+    date: '2023',
+    url: 'https://aws.amazon.com/certification/certified-data-engineer-associate/'
   },
   {
     id: '3',
     name: 'Snowflake - Data Warehousing Workshop',
     issuer: 'Snowflake',
-    date: '2022'
+    date: '2022',
+    url: 'https://www.snowflake.com/certifications/'
   },
   {
     id: '4',
     name: 'Tableau Digital Badge - Connect and Transform Data',
     issuer: 'Tableau',
-    date: '2022'
+    date: '2022',
+    url: 'https://www.tableau.com/learn/certification'
   },
   {
     id: '5',
     name: 'Tableau Digital Badge - Create Views and Dashboards',
     issuer: 'Tableau',
-    date: '2022'
+    date: '2022',
+    url: 'https://www.tableau.com/learn/certification'
   }
 ];

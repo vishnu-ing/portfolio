@@ -7,6 +7,12 @@ import { Award, Calendar, ExternalLink } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Certifications = () => {
+  const handleCertificationClick = (url?: string) => {
+    if (url) {
+      window.open(url, '_blank', 'noopener,noreferrer');
+    }
+  };
+
   return (
     <div className="min-h-screen bg-background p-4">
       <div className="max-w-6xl mx-auto space-y-8">
@@ -36,8 +42,13 @@ const Certifications = () => {
                   </div>
                 </div>
 
-                {cert.badge && (
-                  <Button variant="outline" size="sm" className="pixel-font text-xs w-full">
+                {cert.url && (
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    className="pixel-font text-xs w-full"
+                    onClick={() => handleCertificationClick(cert.url)}
+                  >
                     <ExternalLink className="mr-2 h-3 w-3" />
                     View Credential
                   </Button>

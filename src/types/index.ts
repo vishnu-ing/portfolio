@@ -41,4 +41,5 @@ export interface Certification {
   issuer: string;
   date: string;
   badge?: string;
+  url?: string;
 }
