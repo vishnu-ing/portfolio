@@ -125,34 +125,34 @@ export const certifications: Certification[] = [
     name: 'AWS Certified Solutions Architect - Associate',
     issuer: 'Amazon Web Services',
     date: '2023',
-    url: 'https://aws.amazon.com/certification/certified-solutions-architect-associate/'
+    url: 'https://www.credly.com/badges/e5ba4d04-1c03-4083-b302-9a333f105dc4'
   },
   {
     id: '2',
     name: 'AWS Certified Data Engineer - Associate',
     issuer: 'Amazon Web Services',
-    date: '2023',
-    url: 'https://aws.amazon.com/certification/certified-data-engineer-associate/'
+    date: '2025',
+    url: 'https://www.credly.com/badges/f42ceef1-91b4-4af3-acda-124766242d70'
   },
   {
     id: '3',
     name: 'Snowflake - Data Warehousing Workshop',
     issuer: 'Snowflake',
-    date: '2022',
-    url: 'https://www.snowflake.com/certifications/'
+    date: '2024',
+    url: 'https://achieve.snowflake.com/deb625a0-411a-4d9c-a1f0-7f72fb122e75#acc.wFYqZ5r7'
   },
   {
     id: '4',
     name: 'Tableau Digital Badge - Connect and Transform Data',
     issuer: 'Tableau',
-    date: '2022',
-    url: 'https://www.tableau.com/learn/certification'
+    date: '2024',
+    url: 'https://www.credly.com/badges/6fc17ca5-661d-4593-8f47-8711dc24d659/public_url'
   },
   {
     id: '5',
     name: 'Tableau Digital Badge - Create Views and Dashboards',
     issuer: 'Tableau',
-    date: '2022',
-    url: 'https://www.tableau.com/learn/certification'
+    date: '2024',
+    url: 'https://www.credly.com/badges/b55846f4-7a23-4a72-a884-68fae744f805/public_url'
   }
 ];
