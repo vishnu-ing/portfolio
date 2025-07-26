@@ -31,7 +31,7 @@ const About = () => {
               to AI-powered analysis systems.
             </p>
             <p>
-              Currently pursuing my Master's degree in Management Information Systems at the University at Buffalo, 
+              Recently graduated from my Master's in Management Information Systems from the University at Buffalo on June 2025, 
               I'm expanding my knowledge in strategic technology management while staying hands-on with the latest 
               development trends.
             </p>
@@ -52,7 +52,7 @@ const About = () => {
               <p className="mono-font text-sm text-primary">Management Information Systems</p>
               <p className="mono-font text-xs text-muted-foreground">University at Buffalo, SUNY • 2025 (Expected)</p>
               <p className="mono-font text-xs mt-2">
-                Currently pursuing advanced degree focusing on strategic technology management, 
+                Recently graduated from my Master's in Management Information Systems from the University at Buffalo on June 2025, 
                 data analytics, and enterprise systems architecture.
               </p>
             </div>
@@ -88,7 +88,7 @@ const About = () => {
               <div className="terminal-border bg-secondary p-3">
                 <h3 className="pixel-font text-sm text-primary">Continuous Learning</h3>
                 <p className="mono-font text-xs text-foreground mt-1">
-                  Staying curious and adapting to new technologies and methodologies.
+                  Staying curious and adapting to new technologies and methodologies in latest technology and trends.
                 </p>
               </div>
             </div>

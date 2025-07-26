@@ -81,7 +81,7 @@ export const timelineData: TimelineItem[] = [
     year: "2019",
     title: "Bachelor of Engineering",
     company: "Electronics and Communication Engineering",
-    location: "Anna University, Chennai",
+    location: "MIT, Anna University, Chennai",
     description: ["Graduated with comprehensive knowledge in ECE"],
     type: "education"
   },
@@ -114,7 +114,7 @@ export const timelineData: TimelineItem[] = [
     title: "Master of Science (STEM)",
     company: "Management Information Systems",
     location: "University at Buffalo, SUNY",
-    description: ["Currently pursuing advanced degree in STEM"],
+    description: ["Graduated with CGPA: 4.0", "Courses: Database Management Systems, Cloud Data Warehousing and Data Engineering, Applied AI, IT & Cloud Infrastructure Management, Cloud Computing Security, Predictive Analytics, Business Process Automation, Technology and Innovation Management, System Analysis and Design"],
     type: "education"
   }
 ];

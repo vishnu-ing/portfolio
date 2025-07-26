@@ -13,7 +13,7 @@ interface TimelineItem {
 const CareerTimeline = () => {
   const timelineData: TimelineItem[] = [
     {
-      year: "2019",
+      year: "2015-2019",
       title: "Bachelor of Engineering",
       company: "Electronics and Communication Engineering",
       location: "Anna University, Chennai",
@@ -45,11 +45,11 @@ const CareerTimeline = () => {
       type: "work"
     },
     {
-      year: "2025",
+      year: "2024-2025",
       title: "Master of Science (STEM)",
       company: "Management Information Systems",
       location: "University at Buffalo, SUNY",
-      description: ["Currently pursuing advanced degree in STEM"],
+      description: ["Graduated with CGPA: 4.0", "Courses: Database Management Systems, Cloud Data Warehousing and Data Engineering, Applied AI, IT & Cloud Infrastructure Management, Cloud Computing Security, Predictive Analytics, Business Process Automation, Technology and Innovation Management, System Analysis and Design"],
       type: "education"
     }
   ];
@@ -64,18 +64,14 @@ const CareerTimeline = () => {
   };
 
   return (
-    <div className="space-y-6">
-      {timelineData.map((item, index) => (
+      timelineData.map((item, index) => (
         <div key={index} className="flex gap-4">
-          <div className="flex flex-col items-center">
+          <div className="flex items-center">
             <div className="w-8 h-8 terminal-border bg-primary flex items-center justify-center pixel-font text-xs">
               {getIcon(item.type)}
             </div>
-            {index < timelineData.length - 1 && (
-              <div className="w-0.5 h-16 bg-border mt-2"></div>
-            )}
           </div>
-          <div className="flex-1 pb-8">
+          <div className="flex-1 p-4">
             <div className="terminal-border bg-card p-4">
               <div className="flex items-start justify-between mb-2">
                 <h3 className="pixel-font text-sm text-primary">{item.title}</h3>
@@ -98,8 +94,7 @@ const CareerTimeline = () => {
             </div>
           </div>
         </div>
-      ))}
-    </div>
+      ))
   );
 };
 

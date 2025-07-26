@@ -104,7 +104,7 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-blue-500">●</span>
-                <span>Pursuing MS in Management Information Systems</span>
+                <span>Graduated MS in Management Information Systems</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-yellow-500">●</span>
