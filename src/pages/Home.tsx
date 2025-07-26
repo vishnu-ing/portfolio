@@ -100,7 +100,7 @@ const Home = () => {
             <div className="space-y-2 mono-font text-sm">
               <div className="flex items-center gap-2">
                 <span className="text-green-500">●</span>
-                <span>Available for new opportunities</span>
+                <span>F1-OPT, EAD Approved until 2028</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-blue-500">●</span>
@@ -108,11 +108,11 @@ const Home = () => {
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-yellow-500">●</span>
-                <span>Currently learning: Advanced Cloud Architecture</span>
+                <span>Actively seeking full time employement</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="text-primary">●</span>
-                <span>Location: Buffalo, NY</span>
+                <span>Location: United States</span>
               </div>
             </div>
             <div className="mt-4">

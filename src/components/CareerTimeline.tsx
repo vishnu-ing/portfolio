@@ -16,8 +16,8 @@ const CareerTimeline = () => {
       year: "2015-2019",
       title: "Bachelor of Engineering",
       company: "Electronics and Communication Engineering",
-      location: "Anna University, Chennai",
-      description: ["Graduated with comprehensive knowledge in ECE"],
+      location: "MIT, Anna University, Chennai",
+      description: ["Text segmentation and Transliteration using deep learning"],
       type: "education"
     },
     {
